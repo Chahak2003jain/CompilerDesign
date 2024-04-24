@@ -15,7 +15,7 @@ int yywrap()
 int main()
 {
     yyin = fopen("input.html","r");
-    yyout=fopen("out.txt","w");
+    yyout=fopen("outp.txt","w");
     yylex();
     return 0;
 }
