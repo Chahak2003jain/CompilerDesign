@@ -4,7 +4,8 @@
 
 
 %%
-^[_]*[a-zA-z][a-zA-Z0-9_]* {printf("Valid Identifier\n");}
+^[a-zA-z_][a-zA-Z0-9_]* {printf("Valid Identifier\n");}
+
 
 .* {printf("Invalid Identifier\n");}
 %%
